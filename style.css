@@ -535,7 +535,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-direction: column;
     justify-content: space-between;
   
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
