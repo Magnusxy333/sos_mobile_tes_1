@@ -526,9 +526,29 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media (max-width: 400px) {
-
+  
+  .header{
+    height: 100px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  
+    background-color: white;
+  
+    transition: background-color 2000ms;
+  }
   .icon{
-   width: 70%;
+    margin-left: 20px;
+    width: 70%;
+    height: 95px;
   } 
 
   .banner-test{
@@ -574,6 +594,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     padding-bottom: 140px;
 
-    width: 65%;
+    width: 15%;
   }
 }
